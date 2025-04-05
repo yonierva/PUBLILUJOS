@@ -1,0 +1,44 @@
+{
+  "name": "publilujos",
+  "version": "1.0.0",
+  "description": "proyecto que tiene la finalidad de la creacion de facturas de manera dinamica y agil, con creacion de excel",
+  "main": "src/server.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonierva/PUBLILUJOS.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "publilujos",
+    "proyecto",
+    "api"
+  ],
+  "author": "Yonier vasquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonierva/PUBLILUJOS/issues"
+  },
+  "homepage": "https://github.com/yonierva/PUBLILUJOS#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "2.8.5",
+    "dotenv": "16.4.7",
+    "express": "5.1.0",
+    "express-validator": "7.2.1",
+    "helmet": "8.1.0",
+    "jsonwebtoken": "9.0.2",
+    "morgan": "1.10.0",
+    "mysql2": "3.14.0",
+    "sequelize": "6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.9"
+  }
+}
